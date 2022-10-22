@@ -26,6 +26,9 @@ body {
     line-height: 1.7;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+button {
+    cursor: pointer;
+}
 .link {
     text-decoration: none;
 }
@@ -146,7 +149,6 @@ img {
     padding-bottom: 94px;
     text-align: center;
     background-color: #F5F4FA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .team-descr {
     display: flex;
@@ -268,6 +270,7 @@ img {
 }
 .head-link-2 .link {
     display: block;
+    align-items: center;
     padding: 32px 0px;
     color: #757575;
     font-weight: 500;
